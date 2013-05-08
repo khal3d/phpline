@@ -1,0 +1,9 @@
+.settings
+.buildpath
+.project
+*.orig
+
+# OS generated files #
+######################
+.DS_Store*
+Thumbs.db
