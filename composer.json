@@ -1,5 +1,5 @@
 {
-	"name": "PHPLine/PHPLine",
+	"name": "khal3d/phpline",
 	"type": "library",
 	"description": "Execute command line using php",
 	"keywords": ["cmd","command line", "shell"],
