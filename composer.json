@@ -2,7 +2,7 @@
 	"name": "khal3d/phpline",
 	"type": "library",
 	"description": "Execute command line using php",
-	"keywords": ["cmd","command line", "shell"],
+	"keywords": ["cmd","command line", "shell", "CLI"],
 	"homepage": "https://github.com/khal3d/phpline",
 	"license": "GPL-3.0+",
 	"authors": [
