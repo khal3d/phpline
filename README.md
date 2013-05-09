@@ -1,6 +1,6 @@
 PHPLine
 =======
-**PHPLine** is a library that allow you to execute commands through PHP script.
+**PHPLine** is a PHP class that allow you to execute commands through PHP script.
 
 Installation
 ------------
@@ -23,6 +23,43 @@ And run these two commands to install it:
 $ wget http://getcomposer.org/composer.phar
 $ php composer.phar install
 ```
+
+Now you can add the autoloader, and you will have access to the library:
+
+``` php
+<?php
+include 'vendor/autoload.php';
+```
+
+If you don't use **Composer** in your application, just
+include the class file:
+
+``` php
+<?php
+include_once( 'src/PHPLine/PHPLine.php' );
+$PHPLine = new PHPLine\PHPLine();
+```
+
+You're done!
+
+Usage
+-----
+
+example
+``` php
+$PHPLine = new PHPLine\PHPLine();
+print_r($PHPLine->run('ls -al'));
+```
+
+another example:
+``` php
+$PHPLine = new PHPLine\PHPLine();
+$PHPLine->run('ping google.com', TRUE);
+```
+
+Credits
+-----
+Khaled Attia. [@khal3d](https://twitter.com/khal3d).
 
 License
 ------------
